@@ -12,3 +12,4 @@ https://bdswartz.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Brian Swartz
+### ©️2019 Run Buddy, Inc 
