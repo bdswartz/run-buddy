@@ -1,23 +1,26 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
 .text-left {
     text-align: left;
 }
 .text-right {
     text-align: right;
 }
-body {
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-  }
   
   header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   header h1 {
@@ -25,21 +28,20 @@ body {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
   }
   
   header a {
     color:#fce138;
     text-decoration: none;
   }
-  .sticky {
+  /*.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 9999;
   }
+  */
   header nav {
-    float: right;
     margin: 7px 0;
    }
   
